@@ -249,6 +249,15 @@
     </div>
 </div>
 
-<script type="module" src="js/main.js"></script>
+    <!-- Game Modules - Load order matters -->
+    <script type="module" src="js/worlds.js"></script>
+    <script type="module" src="js/levels.js"></script>
+    <script type="module" src="js/audio.js"></script>
+    <script type="module" src="js/saveSystem.js"></script>
+    <script type="module" src="js/game.js"></script>
+    <script type="module" src="js/update.js"></script>
+    <script type="module" src="js/draw.js"></script>
+    <script type="module" src="js/ui.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
