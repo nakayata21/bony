@@ -1,0 +1,85 @@
+// ==========================================
+// DÜNYA TANIMLARI (Fizik & Görsel)
+// ==========================================
+export const WORLDS = {
+    grass: { 
+        name: "Çimenlik", 
+        gravity: 0.6, 
+        moveSpeed: 5, 
+        airAccel: 0.6, 
+        groundFriction: 0.8, 
+        airFriction: 0.95, 
+        jumpInitial: -11, 
+        jumpSustain: -0.5, 
+        maxJumpHold: 15, 
+        skyTop: '#4facfe', 
+        skyBot: '#00f2fe', 
+        platCol: '#27ae60', 
+        platTop: '#2ecc71', 
+        hasLava: false 
+    },
+    cave: { 
+        name: "Mağara", 
+        gravity: 0.7, 
+        moveSpeed: 4.5, 
+        airAccel: 0.5, 
+        groundFriction: 0.85, 
+        airFriction: 0.93, 
+        jumpInitial: -10, 
+        jumpSustain: -0.4, 
+        maxJumpHold: 12, 
+        skyTop: '#1a1a2e', 
+        skyBot: '#16213e', 
+        platCol: '#4a4a4a', 
+        platTop: '#666666', 
+        hasLava: false 
+    },
+    ice: { 
+        name: "Buzul", 
+        gravity: 0.6, 
+        moveSpeed: 5, 
+        airAccel: 0.6, 
+        groundFriction: 0.98, 
+        airFriction: 0.97, 
+        jumpInitial: -11, 
+        jumpSustain: -0.5, 
+        maxJumpHold: 15, 
+        skyTop: '#a8edea', 
+        skyBot: '#fed6e3', 
+        platCol: '#74b9ff', 
+        platTop: '#dfe6e9', 
+        hasLava: false 
+    },
+    space: { 
+        name: "Uzay", 
+        gravity: 0.25, 
+        moveSpeed: 4, 
+        airAccel: 0.3, 
+        groundFriction: 0.7, 
+        airFriction: 0.99, 
+        jumpInitial: -14, 
+        jumpSustain: -0.3, 
+        maxJumpHold: 20, 
+        skyTop: '#0f0c29', 
+        skyBot: '#302b63', 
+        platCol: '#5a5a5a', 
+        platTop: '#888888', 
+        hasLava: false 
+    },
+    lava: { 
+        name: "Lav Bölgesi", 
+        gravity: 0.65, 
+        moveSpeed: 5.5, 
+        airAccel: 0.7, 
+        groundFriction: 0.8, 
+        airFriction: 0.95, 
+        jumpInitial: -12, 
+        jumpSustain: -0.6, 
+        maxJumpHold: 18, 
+        skyTop: '#2c0b0b', 
+        skyBot: '#8b0000', 
+        platCol: '#2c3e50', 
+        platTop: '#34495e', 
+        hasLava: true 
+    }
+};
